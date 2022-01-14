@@ -1,0 +1,553 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Bizium Template</title>
+<style>
+#main{
+width:100%;
+
+}
+#topbox{
+width:100%;
+height:20px;
+background-color:#FFFFFF
+padding:20px 0px 20px 0px;
+position:fixed;
+}
+
+ul{
+list-style-type:none;
+}
+.menu{
+display:inline;
+margin-left:5px;
+float:right;
+margin-right:40px;
+color:#000000;
+}
+f1,ul{
+display:inline;
+}
+.general{
+float:right;
+width:100px;
+height:20px;
+display:inline-block;
+font-size:14px;
+text-align:right;
+padding:1px;
+margin-left:-4px;
+font:Californian FB;
+}
+
+#f1{
+width:350px;
+height:40px;
+display:inline-block;
+text-align:center;
+font-size:24px;
+font:Arial Black;
+}
+
+a{
+text-decoration:none;
+color:#000000;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+.wantoverlap{
+z-index:-1;
+}
+#another{
+width:100%;
+height:500px;
+background-color:#FFFFFF;
+}
+#small{
+float:inherit;
+background-color:#23B6CF;
+width:120px;
+height:30px;
+border-radius:25px;
+color:#FFFFFF;
+text-align:center;
+font-size:18px;
+}
+
+.div1{
+width:500px;
+height:400px;
+float:left;
+margin-left:100px;
+margin-right:50px;
+margin-top:50px;
+overflow:hidden;
+}
+.div2{
+width:600px;
+height:500px;
+margin-top:70px;
+border: 3px solid #73AD21;
+}
+article {
+    padding: 1em;
+    overflow: hidden;
+	margin-top:80px;
+	font-size:24px;
+	text-align:justify;
+	margin-right:50px
+} 
+
+#boxfloat{
+width:100%;
+height:600px;
+background-color:#EEEEEE;
+
+}
+
+td{
+border:1px solid #23B6CF;
+border-radius:5px;
+padding:6px;
+text-align:center;
+color:#999999;
+}
+th{
+text-align:left;
+}
+table{
+margin-left:30px;
+border-spacing:30px;
+}
+#tableside{
+width:350px;
+height:250px;
+background-color:#23B6CF;
+margin-top:50px;
+margin-right:240px;
+float:right;
+}
+#services{
+width:100%;
+height:600px;
+background-color:#EDFEFE;
+text-align:center;
+}
+.floating-box{
+display:inline-block;
+width:350px;
+height:200px;
+margin:10px;
+text-align:justify;
+}
+.text{
+width:250px;
+height:30px;
+margin-left:80px;
+}
+.floatimg{
+float:left;
+margin:50px 0 10px 10px;
+
+}
+#featured{
+width:100%;
+height:90px;
+background-color:#FFFFFF;
+text-align:center;
+font-size:32px;
+padding-top:30px;
+}
+#featuredwork{
+width:100%;
+height:500px;
+}
+.artwork{
+display:inline-block;
+width:337px;
+height:250px;
+margin:-4px;
+margin-left:-4px;
+}
+#client-test{
+width:100%;
+height:530px;
+background-image:url(model/testimonials-bg.jpg);
+}
+.testimonial{
+width:550px;
+height:150px;
+background-color:#FFFFFF;
+float:left;
+margin-left:30px;
+margin-top:30px;
+border-radius:8px;
+}
+.manager{
+ width:200px;
+ height:100px;
+ float:left;
+ margin-left:200px;
+ margin-top:10px;
+ font: "Times New Roman", Times, serif;
+ }
+.enter{
+width:620px;
+height:400px;
+float:left;
+margin-left:30px;
+border-radius:8px;
+}
+#box-client{
+margin-left:500px;
+width:350px;
+height:50px;
+font-size:32px;
+padding:20px 20px;
+}
+#latest{
+background-color:#F2F2F2;
+width:100%;
+height:550px;
+}
+#blogtitle{
+width:300px;
+height:30px;
+margin-left:500px;
+padding:20px 20px;
+}
+.blog-pics{
+width:350px;
+float:left;
+margin-left:60px;
+margin-top:50px;
+}
+#services > h1
+{
+	margin:0px;
+}
+
+div.desc{
+width:350px;
+font:Georgia;
+font-size:16px;
+text-align:justify;
+}
+.price{
+width:100%;
+height:550px;
+background-color:#F4FFFF;
+}
+#pricetitle{
+width:350px; 
+height:100px;
+ border:2px solid #F4FFFF;
+ font-size:22px;
+ margin-left:500px;
+}
+.pricing{
+list-style-type:none;
+float:left;
+margin-left:5px;
+
+}
+.buynow{
+border:1px solid #999999;
+height:50px;
+width:250px;
+padding:10px;
+padding-bottom:28px;
+background-color:#00BBBB;
+color:#FFFFFF;
+
+}
+.buy{
+border:1px solid #999999;
+height:50px;
+width:250px;
+padding:10px;
+padding-top:0px;
+padding-bottom:0px;
+}
+
+#contact{
+width:100%;
+height:700px;
+}
+#contact-title{
+width:100%;
+height:130px;
+background-color:#FFFFFF;
+}
+
+#contact-title > h1{
+margin:0px;
+}
+
+#netproblem{
+width:100%;
+height:500px;
+background-color:#F3F3F3;
+}
+
+#box-contact{
+width:200px;
+padding-top:40px;
+background-color:#FFFFFF;
+margin-left:600px;
+}
+.p{
+width:410px;
+margin-left:600px;
+margin-top:0px;
+}
+#try-again{
+width:100px;
+height:30px;
+background-color:#0066FF;
+color:#FFFFFF;
+margin-left:300px;
+text-align:center;
+border-radius:3px;
+}
+
+</style>
+</head>
+
+<body>
+<div id="main">
+   <div id="topbox">
+   <div id="f1">BIZIUM<span style="color:#0066CC">TEMPLATE</span></p></div>
+    <ul>
+	
+	       <li class="menu"><a href="#contact">CONTACT</a></li>
+		   <li class="menu">FAQ</li>
+		   <li class="menu"><a href="#pricetitle">PRICING</a></li>
+		   <li class="menu"><a href="#latest" >BLOG</a></li>
+		   <li class="menu"><a href="#client-test" >TEST</a></li>
+		   <li class="menu"><a href="#featured" >PORTFOLIO</a></li>
+		   <li class="menu"><a href="#services">SERVICES</a></li> 
+		   <li class="menu"><a href="#another" >ABOUT</a></li>
+		   <li class="menu"><a href="#picbox" >HOME</a></li>
+	     
+	</ul>
+   </div>
+       <div id="picbox" ><p style="text-align:center; font-size:36px; color:#FFFFFF; position:absolute; margin-top:200px; margin-left:50px;"> ADVERTISEMENT ON OUR PRODUCTS<br />GOODNEWS ENTERPRISES LMD<br />DEALER IN ALL KINDS OF ATTIRE(WEARS,SHOES,BAGS,JEWELRIES...ETC)</p>
+      <a class="wantoverlap"> <img src="model/slider1.jpg" width="100%" height="600"   /></a>
+   </div>
+         <div id="another">
+		 <div class="div1"> <img src="model/about-image.jpg" alt="com" width="100%" height="400px" /></div>
+		 <article>
+		
+<h2> ABOUT OUR MARKET</h2>
+Our company is the best place to get quality resources<br />
+We offer resources like wears,shoes,bags etc<br />
+You can order for your items online<br />
+....your satisfaction is our concern<br />
+<div id="small" style="padding-top:5px" ><b>Read More</b></div>
+</article>
+		 </div>
+         
+		<div id="boxfloat">
+		<div id="tableside"><p style="color:#FFFFFF ; font-size:36px; text-align:center">180</p>
+		<p style="color:#FFFFFF ; font-size:36px; text-align:center">awards get & win</p></div>
+		 <table style="width:55%">
+			       <tr>
+				   <th>PHOTOSHOP</th>
+				   <th>WEB DESIGN</th>
+				   </tr>
+				    
+					    <tr>
+						<td  style="border-left:180px solid #23B6CF">60%</td>
+						<td  style="border-left:250px solid #23B6CF">80%</td>
+						</tr>
+				   </table>
+				         <table style="width:55%"> 
+						<tr>
+						
+						<th>ILLUSTRATOR</th>
+						<th>WORD-PRESS</th>
+						</tr>
+											
+						        <tr>
+						<td style="border-left:300px solid #23B6CF">90%</td>
+						<td style="border-left:200px solid #23B6CF">70%</td>
+						</tr>
+				   	</table>
+		</div> 
+		           <div id="services"><h1 style="font-size:36px" >Our<span style="color:#0066CC">   Services</span></h1>
+				         <div class="floating-box">
+						<a class="floatimg"> <img src="../../../Users/Janet/Pictures/cloth style/fashion/Screenshot_2018-07-11-22-13-44-1.png" alt=                                                  "bag" width ="50" height="50px" /></a>
+						 <div class="text"><h4>Goodnews Quality Bags</h4>
+						 Our bags are quality ones,
+						 we sell different kinds of bags(small,medium,large),
+						 and they are of attractive colors,
+						 with affordable price....you can order online
+						 or visit our company.<br /><br />
+						 <span style="color:#0099FF; font-size:12px">READ MORE>></span></div>
+						 </div>
+						       <div class="floating-box">
+					<a class="floatimg"> <img src="../../../Users/Janet/Pictures/cloth style/fashion/Screenshot_2018-02-28-17-07-15.png" alt=                                                  "bag" width ="50" height="50px" /></a>
+
+					     <div class="text"><h4>Goodnews Quality Shoes</h4>
+						 Our shoes are quality ones,
+						 we sell different kinds of shoes(dull shoe,heel,wedge etc),
+						 and they are of attractive colors,
+						 with affordable price....you can order online
+						 or visit our company.<br /><br />
+						 	 <span style="color:#0099FF; font-size:12px">READ MORE>></span></div>
+							   </div>
+						             <div class="floating-box">
+	                       <a class="floatimg"> <img src="../../../Users/Janet/Pictures/cloth style/fashion/Screenshot_2018-03-06-20-40-29.png" alt=                                                  "bag" width ="50" height="50px" /></a>
+
+						 <div class="text"> <h4>Goodnews Quality Clothes</h4>
+						 Our clothes are quality ones,
+						 we sell different kinds of clothes(readymade,lace,ankara etc),
+						 and they are of attractive colors,
+						 with affordable price....you can order online
+						 or visit our company.<br /><br />
+						 	 <span style="color:#0099FF; font-size:12px">READ MORE>></span></div>
+									 </div>
+						                <div class="floating-box">
+						<a class="floatimg"> <img  src="../../../Users/Janet/Pictures/cloth style/fashion/Screenshot_2018-03-29-17-31-11.png" alt=                                                  "bag" width ="50" height="50px" /></a>
+
+						  <div class="text"><h4>Goodnews Quality jewelries</h4>
+						  Our jewelries are quality ones,
+						 we sell different kinds of jewelries(earrings,neck chain,bangles etc),
+						 and they are of attractive colors,
+						 with affordable price....you can order online
+						 or visit our company.<br /><br />
+						 	 <span style="color:#0099FF; font-size:12px">READ MORE>></span></div>
+										</div>
+						                       <div class="floating-box">
+						<a class="floatimg"> <img  src="../../../Users/Janet/Pictures/cloth style/fashion/FB_IMG_1526848681662.jpg"alt= "bag" width                                           ="50" height="50px" /></a>
+
+						 <div class="text"><h4>Goodnews Quality wigs</h4>
+						 Our wigs are quality ones,
+						 we sell different kinds of wigs(weave on,braiding,ghana weaving etc),
+						 and they are of attractive colors,
+						 with affordable price....you can order online
+						 or visit our company.<br /><br />
+						 	 <span style="color:#0099FF; font-size:12px">READ MORE>></span></div>
+											   </div>
+						 <div class="floating-box">
+						 <a class="floatimg"> <img src="../../../Users/Janet/Pictures/cloth style/fashion/Screenshot_2018-07-20-12-17-03-1.png"alt=                                  "bag" width ="50" height="50px" /></a>
+
+						 <div class="text"><h4>Goodnews Quality makeover items</h4>
+						  Our makeup items are quality ones,
+						 we sell different kinds of makeup items(foundation,powder,lipstick etc),
+						 and they are of attractive colors,
+						 with affordable price....you can order online
+						 or visit our company.<br /><br />
+						 	 <span style="color:#0099FF; font-size:12px">READ MORE>></span></div>
+						 </div>
+						       <div id="featured"><b>Featured <span style="color:#0099FF">Work</span></b></div>  
+							       <div id="featuredwork">
+								       <div class="artwork" style="background-color:#0099CC">
+									   <img src="model/Screenshot_2019-01-21 Screenshot(3).png" /></div>
+									    <div class="artwork" style="background-color:#FF0033">
+										 <img src="model/Screenshot_2019-01-21 Screenshot(4).png" /></div>
+										 <div class="artwork" style="background-color:#221F61">
+										 <img src="model/Screenshot_2019-01-21 Screenshot(5).png" /></div>
+										  <div class="artwork" style="background-color:#C91D4D">
+										  <img src="model/Screenshot_2019-01-21 Screenshot(6).png" /></div>
+										   <div class="artwork" style="background-color:#EC1A3F">
+										   <img src="model/Screenshot_2019-01-21 Screenshot(2).png" /></div>
+										    <div class="artwork" style="background-color:#C63E52">
+											<img src="model/Screenshot_2019-01-21 Screenshot(1).png" /></div>
+											 <div class="artwork"style="background-color:#0099CC">
+											 <img src="model/Screenshot_2019-01-21 Screenshot.png" /></div>
+											  <div class="artwork" style="background-color:#339999">
+											  <img src="model/Screenshot_2019-01-21 Screenshot(7).png" /></div>
+											  <img src=""
+								
+								        <div id="client-test"><div id="box-client"><p style="color:#FFFFFF">Client <span style="color:#0099FF"Testimonials</span></p></div>
+						<div class="enter">
+						<div class="testimonial"></div>
+							<img src="model/FB_IMG_15341597648685872.jpg" alt="ade" width="100px" height="100px" style="float:left;margin-left:250px; margin-top:50px; border-radius:50px;" />
+				        <div class="manager"><f style="color:#0066FF;font-size:22px;">Jane Jane<br /><span style="color:#FFFFFF; font-size:16px;">Marketing Manager</span></f></div>
+										</div>
+										      <div class="enter">
+										<div class="testimonial"></div>
+										<img src="model/FB_IMG_15341597648685872.jpg" alt="ade" width="100px" height="100px" style="float:left;                                        margin-left:250px;  margin-top:50px; border-radius:50px;" />
+						<div class="manager"><k style="color:#0066FF; font-size:22px;">Jane Jane<br /><span style="color:#FFFFFF; font-size:16px;">Marketing Manager</span></k></div>
+										     </div>
+										</div>
+								 
+						<div id="latest" ><div id="blogtitle" style="font-size:30px;"><strong>Latest From The <span style="color:#0099FF;">Blog</                              span></strong></div>
+														
+		<div class="blog-pics"> <img src="model/blog.jpg" alt="blog"width="350px" height="300px" /><div class="desc">these are new release from the market<p>price is #25,000 for bag</p> and                            #10,000 for the trainers
+		</div></div>
+			<div class="blog-pics"> <img  src="model/blog.jpg" alt="blog"width="350px" height="300px" /><div class="desc">                               make your baby look ravishing and attractive...<p> get babies's dresses at affordable price here....</p>this is a token of #15,000
+						</div></div>
+					<div class="blog-pics">  <img  src="model/blog.jpg" alt="blog"width="350px" height="300px" /><div class="desc">get your own aso ebi here..<p>party rocking dresses...wedding attire....</p>trending style...check it out
+					</div></div>
+						
+						</div>
+							<div class="price"><div id="pricetitle"><h2>Our Affordable<span style="color:#0099FF">Pricing</span></h2>
+							 </div>
+							    <ul class="pricing">
+								<li  class="buy" style="background-color:#00BBBB;color:#FFFFFF;"><h1>Standard</h1></li>
+								<li  class="buynow"><h1>$9/month</h1></li>
+								<li class="buy">personal use</li>
+								<li  class="buy">unlimited project</li>
+								<li  class="buy">27/7 support</li>
+								<li  class="buy" style="background-color:#00CCFF; color:#FFFFFF; border:3px solid #CCCCCC;">Buy now</li>
+								</ul>
+								
+								
+								<ul class="pricing">
+								<li  class="buy" style="background-color:#00BBBB;color:#FFFFFF;" ><h1>Standard</h1></li>
+								<li  class="buynow"><h1>$9/month</h1></li>
+								<li class="buy">personal use</li>
+								<li  class="buy">unlimited project</li>
+								<li  class="buy">27/7 support</li>
+									<li  class="buy" style="background-color:#00CCFF; color:#FFFFFF; border:3px solid #CCCCCC;">Buy now</li>
+								</ul>
+								
+								
+								<ul class="pricing">
+								<li   class="buy" style="background-color:#00BBBB;color:#FFFFFF;"><h1>Standard</h1></li>
+								<li  class="buynow"><h1>$9/month</h1></li>
+								<li class="buy">personal use</li>
+								<li  class="buy">unlimited project</li>
+								<li  class="buy">27/7 support</li>
+									<li  class="buy" style="background-color:#00CCFF; color:#FFFFFF; border:3px solid #CCCCCC;">Buy now</li>
+								</ul>
+								
+								
+								<ul class="pricing">
+								<li  class="buy" style="background-color:#00BBBB;color:#FFFFFF;"><h1>Standard</h1></li>
+								<li  class="buynow"><h1>$9/month</h1></li>
+								<li class="buy">personal use</li>
+								<li  class="buy">unlimited project</li>
+								<li  class="buy">27/7 support</li>
+									<li  class="buy" style="background-color:#00CCFF; color:#FFFFFF; border:3px solid #CCCCCC;">Buy now</li>
+								</ul>
+						  </div>
+						          <div id="contact">
+								  <div id="contact-title"><div id="box-contact"><h1>Contact <span style="color:#0099FF;">Us</span></h1></div></div>
+								       <div id="netproblem">
+									       <div class="p" style="text-align:justify;"><p style="font-size:32px;">Hmm. We're  having  trouble<br />finding  that  site</p><p>We can't connect to the server at www.google.com</p><strong style="font-size:18px;" >if that address is correct,here are three things you can try:</strong>
+										 <ul>
+										 <li>Try again later.</li>
+										 <li>Check your network connection</li>
+										 <li>If you are connected but behind a firewall,check that firefox has permission to access the web</li>
+										 </ul>  
+										 <div id="try-again">Try Again</div>
+										 </div>
+											
+								       </div>
+								  </div>
+						  
+						  
+					</div>
+			  
+			   </div>						 
+		</div>	
+				   
+</div>
+</div>
+</body>
+</html>
